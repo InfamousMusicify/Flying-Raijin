@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Craft/Use Raijin                                                                      ",
-        "description": "Put an Eye of Ender and a NameTag in a crafting grid to create Chakra, throw your trident on the ground and right click it with the Chakra. \n\nThe trident will be endowed with Raijin. You will also recieve a Raijin Link.\n\nPut an Ender Pearl and Paper in a crafting grid to get a spare Raijin Link. \nRight click the Raijin Link to teleport to your trident.\nPack By Infamous\nCreated with the help of M.R. Programs <3",
+        "description": "Put an Eye of Ender and a NameTag in a crafting grid to create Chakra, throw your trident on the ground and right click it with the Chakra. \n\nThe trident will be endowed with Raijin. You will also recieve a Raijin and a Level 1 Item. \nRight click the Raijin Item to teleport to your trident.  \nRight click Level 1 to call your trident back.\n\nPut an Ender Pearl and Nametag in a crafting grid to get a spare Raijin and Level 1. \n\nPack By Infamous\nCreated with the help of \nM.R. Programs <3",
         "icon": {
             "item": "minecraft:heart_of_the_sea"
         },
