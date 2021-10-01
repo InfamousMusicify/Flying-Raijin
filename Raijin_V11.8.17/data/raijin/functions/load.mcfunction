@@ -1,6 +1,6 @@
 # raijin:load
 ### Update Patch ###
-execute if score #patch raijin_uid matches ..10 run function raijin:patch
+execute if score #patch raijin_uid matches ..20 run function raijin:patch
 # Update patch number when pathcing,         ^ also update internal numbers. ^
 ### ### ###
 # fix scoreboard overload
