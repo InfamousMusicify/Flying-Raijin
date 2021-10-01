@@ -6,6 +6,10 @@ execute as @a[scores={raijin_throw=1..}] run function raijin:lockon
 # TP / version for the offhand.
 execute as @a[scores={raijin=1..,raijin_lock=1..61},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_2
 scoreboard players set @a raijin 0
+# Recall
+execute as @a[scores={raijin_recall=1..,raijin_lock=1..61},nbt={Inventory:[{id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_1
+scoreboard players set @a raijin_recall 0
+
 # Trident Lock Cooldown (for more accurate TP)
 execute as @a[scores={raijin_lock=61}] run function raijin:unlock_cd
 # Crafting / / Spare

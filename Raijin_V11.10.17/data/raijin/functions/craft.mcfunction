@@ -3,6 +3,7 @@ kill @e[type=minecraft:armor_stand,tag=Cursed,distance=..10,sort=nearest]
 data merge entity @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..15] {Item:{id:"minecraft:trident",Count:1b,tag:{display:{Lore:['{"text":"Hiraishin No Jutsu","color":"gray","italic":false}']},Tags:["Raijin"]}}}
 # Link give and detector
 execute unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run loot give @s loot raijin:fr_lvl_2_link
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run loot give @s loot raijin:fr_lvl_1_link
 # Play Crafting Sounds and particles
 # execute at @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..15] run function raijin:particle
 execute at @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..15] run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..16] ~ ~ ~ 1 1
