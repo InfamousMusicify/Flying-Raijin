@@ -13,4 +13,6 @@ function raijin:reqs
 # Axioms:  Mark is now in Raijin, Harishin No Jutsu.  Flying raijin level 1
 # fr is faster than hnj or raijin confusion, exmp: fr_lvl_1, fr_lvl_2
 # fr = flying raijin
+# fr_lvl_1 or fr_lvl_2
+# fr_lvl_1_adv  -  fr_lvl_1_recp  -  fr_lvl_1_loot  -  Etc.
 scoreboard players set @a chakra 0

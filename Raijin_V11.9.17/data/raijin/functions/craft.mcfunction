@@ -1,6 +1,4 @@
 kill @e[type=minecraft:armor_stand,tag=Cursed,distance=..10,sort=nearest]
-# Remove chakra item (add nbt)
-# execute at @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..15] run clear @p[sort=nearest] minecraft:carrot_on_a_stick{Tags: ["Chakra"]} 1
 # Merge data for  Raijin Items
 data merge entity @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..15] {Item:{id:"minecraft:trident",Count:1b,tag:{display:{Lore:['{"text":"Hiraishin No Jutsu","color":"gray","italic":false}']},Tags:["Raijin"]}}}
 # Link give and detector
