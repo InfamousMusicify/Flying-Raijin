@@ -8,9 +8,9 @@ Clone the Repository to download the latest version.
 
 **Crafting/Useage:**   
 (check the advancments menu for crafting and useage in game)  
-_**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra,  
+_**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra(it will be a book of knowledge until you click it.),  
 throw your trident on the ground and right click it with the Chakra._   
-(it will look like a book of knowledge until you click it.)
+
 
 *__The Trident will be endowed with Raijin.__   
 You will recieve a Raijin and a Level 1 Item.*  
