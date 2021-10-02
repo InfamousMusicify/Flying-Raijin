@@ -1,5 +1,5 @@
 # [🎥 Hiraishin no jutsu](https://youtu.be/dOuJNRJvqmY)
-### Java Edition - Data pack  
+### Minecraft: Java Edition - Data pack  
 
 A Datapack that lets you and your players become Minato Namikaze from Naruto.    
       (Craft Tridents into Teleportation Kunai)  
