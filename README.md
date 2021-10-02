@@ -7,6 +7,7 @@ A Datapack that lets you and your players become Minato Namikaze from Naruto.
 Clone the Repository to download the latest version.  
 
 **Crafting/Useage:**   
+(check the advancments menu for crafting and useage in game)
 _**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra,  
 throw your trident on the ground and right click it with the Chakra._   
 
