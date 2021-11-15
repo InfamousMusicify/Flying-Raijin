@@ -21,9 +21,6 @@ _**Extra:** Right click Level 1 to summon your trident._
 **Spare Raijin Items Crafting:** Put an Ender Pearl and Nametag in a crafting grid to craft a spare Raijin/Level 1.    
       **You Can Rename and Enchant your Raijin trident before or after its been Raijinified.**  
 
-                        Version 11.5 or Higher Recommended!  
-      (A reinstall is recomended if you update to 11.5+ from older versions)  
-      (in 10.8 and 11.5 textures/new code were introduced, you must recraft your trident/raijin link to see/use them.)
 #
 
 ### [Navigate to Branches for older verions of the pack.](https://github.com/InfamousMusicify/Flying-Raijin/branches)
