@@ -1,5 +1,5 @@
 # [🎥 Hiraishin No Jutsu](https://youtu.be/dOuJNRJvqmY)  
-### Flying Raijin: Level 2 - Minecraft: Java Edition - Data pack  
+### Flying Raijin: Level 2 - Minecraft: Java Edition - Data Pack  
 
 **Become Minato Namikaze!**   
 (Craft Tridents into Teleportation Kunai)  
