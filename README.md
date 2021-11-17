@@ -1,33 +1,25 @@
 # [🎥 Hiraishin no jutsu](https://youtu.be/dOuJNRJvqmY)
 ### Minecraft: Java Edition - Data pack  
 
-A Datapack that lets you and your players become Minato Namikaze from Naruto.    
-      (Craft Tridents into Teleportation Kunai)  
-
-Clone the Repository to download the latest version.  
+**Become Minato Namikaze!**   
+(Craft Tridents into Teleportation Kunai)  
 
 **Crafting/Useage:**   
-(check the advancments menu for crafting and useage in game)  
-_**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra(it will be a book of knowledge until you click it.),  
-throw your trident on the ground and right click it with the Chakra._   
+_**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra. (it will be a book of knowledge until you click it.)  
+Throw your trident on the ground and right click it with the Chakra._   
 
+*__The Trident will be endowed with Raijin.__   You will recieve a Raijin and a Level 1 Item.*  
 
-*__The Trident will be endowed with Raijin.__   
-You will recieve a Raijin and a Level 1 Item.*  
-
-_**2:** Throw the trident and Right click Raijin to teleport to the trident._    
-_**Extra:** Right click Level 1 to summon your trident._    
-
+_**2:** Throw the Trident and right click "Raijin" to Teleport to your Trident.   Right click "Level 1" to summon your trident._    
 **Spare Raijin Items Crafting:** Put an Ender Pearl and Nametag in a crafting grid to craft a spare Raijin/Level 1.    
-      **You Can Rename and Enchant your Raijin trident before or after its been Raijinified.**  
+(check the advancments menu for crafting and useage in game)  
+__You Can Rename and Enchant your Raijin Trident before and after its been Raijinified.__   
 
-#
 
+## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/archive/refs/heads/master.zip)   
 ### [Navigate to Branches for older verions of the pack.](https://github.com/InfamousMusicify/Flying-Raijin/branches)
 
-**Legacy Edition Downloads**  
-**[⫸MC 1.16.2 - 1.16.4⫷](https://github.com/InfamousMusicify/Flying-Raijin/raw/Legacy/Raijin%20LV0.3.zip)** || **[⫸MC 1.15 - 1.16.1⫷](https://github.com/InfamousMusicify/Flying-Raijin/raw/Legacy/Raijin%20LV0.2.zip)** || **[⫸MC 1.13 - 1.14.4⫷](https://github.com/InfamousMusicify/Flying-Raijin/raw/Legacy/Raijin%20LV0.1.zip)**    
-**Command Block setup:** **[MC 1.9 - 1.12.2](https://github.com/InfamousMusicify/Flying-Raijin/tree/MC-1.11-1.12.2)**  
+There is a command block version in the Legacy Branch for 1.9-1.13.
 
 **[🔗 Datapack in Action](https://youtu.be/dOuJNRJvqmY)  
 [🔗 Datapack Inspiration](https://youtu.be/Fd_vSRkGlv8)  
