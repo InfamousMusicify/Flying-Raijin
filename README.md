@@ -23,8 +23,7 @@ There is a command block version in the Legacy Branch for 1.9-1.13.
 
 **[🔗Pack in Action!](https://youtu.be/sQXLHzxXQDE)
 [🔗 Datapack Inspiration](https://youtu.be/Fd_vSRkGlv8)  
-[🔗 How to Install a Datapack](https://www.youtube.com/watch?v=4Dxzw12TQcg)    
-[🔗 Check out the Beta-Testing Server!](https://bit.ly/2TizsgS)**  
+[🔗 How to Install a Datapack](https://youtu.be/JHEjZlVlqGE)**  
 [🔗 Older Pack in action](https://youtu.be/dOuJNRJvqmY)  
 
 Big thanks to "たくぱんちゃんねる" for showcasing the pack!  
