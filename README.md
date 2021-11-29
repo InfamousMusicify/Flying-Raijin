@@ -21,10 +21,11 @@ __You Can Rename and Enchant your Raijin Trident before and after its been Raiji
 
 There is a command block version in the Legacy Branch for 1.9-1.13.
 
-**[🔗 Datapack in Action](https://youtu.be/dOuJNRJvqmY)  
+**[🔗Pack in Action!](https://youtu.be/sQXLHzxXQDE)
 [🔗 Datapack Inspiration](https://youtu.be/Fd_vSRkGlv8)  
 [🔗 How to Install a Datapack](https://www.youtube.com/watch?v=4Dxzw12TQcg)    
 [🔗 Check out the Beta-Testing Server!](https://bit.ly/2TizsgS)**  
+[🔗 Older Pack in action](https://youtu.be/dOuJNRJvqmY)  
 
 Big thanks to "たくぱんちゃんねる" for showcasing the pack!  
 **Massive Thanks to M.R. Programs for helping me put this together originally. <3**  
