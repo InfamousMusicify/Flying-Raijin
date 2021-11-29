@@ -1,4 +1,4 @@
-# [🎥 Hiraishin No Jutsu](https://youtu.be/dOuJNRJvqmY)  
+# [🎥 Hiraishin No Jutsu](https://youtu.be/sQXLHzxXQDE)  
 ### Flying Raijin: Level 2 - Minecraft: Java Edition - Data Pack  
 
 **Become Minato Namikaze!**   
