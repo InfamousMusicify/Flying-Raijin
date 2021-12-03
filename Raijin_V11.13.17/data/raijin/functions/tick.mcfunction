@@ -22,7 +22,7 @@ scoreboard players set @a raijin_recall 0
 # Trident Lock Cooldown (for more accurate TP)
 execute as @a[scores={raijin_lock=61}] run function raijin:unlock_cd
 # Crafting / / Spare
-execute at @a[scores={chakra=1..}] at @e[sort=nearest,distance=..10,type=minecraft:armor_stand,tag=Cursed] run function raijin:precraft
+execute at @a[scores={chakra=1..}] at @e[sort=nearest,distance=..10,type=minecraft:armor_stand,tag=Cursed_chakra] run function raijin:precraft
 scoreboard players set @a chakra 0
 
 ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### #####

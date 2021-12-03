@@ -15,7 +15,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Chakra\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Energy you can leave your mark with.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1,Tag:Chakra,EntityTag:{id:\"minecraft:armor_stand\",Invisible:1b,Tags:[\"Cursed\"]}}"
+              "tag": "{display:{Name:'{\"text\":\"Chakra\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Energy you can leave your mark with.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1,Tag:Chakra,EntityTag:{id:\"minecraft:armor_stand\",Invisible:1b,Tags:[\"Cursed_chakra\"]}}"
             }
           ]
         }

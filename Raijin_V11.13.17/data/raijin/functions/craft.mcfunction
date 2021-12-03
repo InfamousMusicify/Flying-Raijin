@@ -1,4 +1,4 @@
-kill @e[type=minecraft:armor_stand,tag=Cursed,distance=..10,sort=nearest]
+kill @e[type=minecraft:armor_stand,tag=Cursed_chakra,distance=..10,sort=nearest]
 # Merge data for  Raijin Items
 data merge entity @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..15] {Item:{id:"minecraft:trident",Count:1b,tag:{display:{Lore:['{"text":"Hiraishin No Jutsu","color":"gray","italic":false}']},Tags:["Raijin"]}}}
 # Link give and detector
