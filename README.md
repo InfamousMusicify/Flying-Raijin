@@ -12,6 +12,12 @@ Throw your trident on the ground and right click it with the Chakra._
 
 _**2:** Throw the Trident and right click "Raijin" to Teleport to your Trident.   Right click "Level 1" to summon your trident._    
 **Spare Raijin Items Crafting:** Put an Ender Pearl and Nametag in a crafting grid to craft a spare Raijin/Level 1.    
+
+**Raijin Secondary Abilities:**
+*Throw your Raijin, Crouch and move a little to activate.*  
+Recall: Summon nearby Items back with your Raijin.  
+Raijin: Mark nearby entities with your Raijin, Summon them at will, crouch and right click 6+ blocks away to unmark.  
+
 (check the advancments menu for crafting and useage in game)  
 __You Can Rename and Enchant your Raijin Trident before and after its been Raijinified.__   
 
