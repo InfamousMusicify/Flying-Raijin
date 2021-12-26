@@ -1,2 +1,0 @@
-# raijin:reload
-reload

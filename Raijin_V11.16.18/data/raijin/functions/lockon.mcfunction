@@ -5,5 +5,8 @@ scoreboard players set @s raijin_lock 61
 scoreboard players add @e[type=trident,sort=nearest] raijin_id 0
 # Set thrown trident score to player ID.  # Called by tick (at player who throws trident)
 execute store result score @e[sort=nearest,scores={raijin_id=0},type=trident,limit=1,nbt={Trident: {id: "minecraft:trident", Count: 1b, tag: {Tags: ["Raijin"]}}}] raijin_id run scoreboard players get @s raijin_id
+# test for raijin tag along
+# execute store result score @e[sort=nearest,distance=..12] raijin_tag_along run scoreboard players get @s raijin_id
 # Reset RajinThrow Score
 scoreboard players set @s raijin_throw 0
+scoreboard players reset @s raijin_crouch

@@ -3,8 +3,8 @@
 execute if score #patch raijin_uid matches ..20 run function raijin:patch
 # Update patch number when pathcing,         ^ also update internal numbers. ^
 ### ### ###
-# fix scoreboard overload
-execute if score #last raijin_id matches 999999.. run function raijin:uninstall
+# fix scoreboard overload (1 under 32-bit integer limit)
+execute if score #last raijin_id matches 2147483646.. run function raijin:uninstall
 ###
 # Scoreboard add #
 function raijin:reqs
