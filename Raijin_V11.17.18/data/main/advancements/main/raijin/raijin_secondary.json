@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Raijin Secondary Abilities:                            ",
+        "description": ["",{"text":"Throw your Raijin, Crouch and move a little to activate.","color":"green"},{"text":"\n"},{"text":"Recall: ","color":"dark_green"},{"text":"Summon nearby Items back with your Raijin","color":"gold"},{"text":"\n"},{"text":"Raijin: ","color":"dark_green"},{"text":"Mark nearby entities with your Raijin, Summon them at will, crouch and right click to unmark.","color":"gold"}],
+        "icon": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "main:main/raijin/raijin",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

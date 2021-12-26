@@ -10,7 +10,7 @@ scoreboard players add @e raijin_tag_along 0
 
 
 execute as @s[scores={raijin_crouch=1..}] as @e[scores={raijin_tag_along=1..},sort=nearest,distance=1..] run scoreboard players reset @s raijin_tag_along
-# sexy working split player mark, cooldown in unlcok_cd
+# sexy working split player mark, cooldown in unlcok_cd(off rn)
 #          execute at @s run execute store result score @e[scores={raijin_tag_along=0},sort=nearest,distance=..6] raijin_tag_along run scoreboard players get @a[scores={raijin=1..,raijin_crouch=1..},sort=nearest,limit=1] raijin_id
 execute at @s as @e[sort=nearest,distance=..6] unless entity @s[scores={raijin_tag_along=1..}] run execute store result score @s raijin_tag_along run scoreboard players get @a[scores={raijin_crouch=1..},sort=nearest,limit=1] raijin_id
 
@@ -33,7 +33,7 @@ execute at @e[type=trident,scores={raijin_id=1..}] run execute if score @e[type=
 
 # tag along pt 2
 
-# working people dragger (crouch activates, there is no kill it is commented out below this mechanic is now a person marker)
+# working people dragger (crouch activates, there is no tag kill, it is commented out below this mechanic is now a person marker)
 #   execute as @e[scores={raijin_tag_along=1..}] run execute at @a[scores={raijin=1..},sort=nearest] run execute if score @s raijin_tag_along = @a[limit=1,scores={raijin=1..},sort=nearest] raijin_id run tp @s ~ ~ ~
 execute as @e[scores={raijin_tag_along=1..}] run execute at @a[scores={raijin=1..},sort=nearest] run execute if score @s raijin_tag_along = @a[limit=1,scores={raijin=1..},sort=nearest] raijin_id run tp @s ~ ~ ~
 
