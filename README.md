@@ -16,7 +16,6 @@ _**2:** Throw the Trident and right click "Raijin" to Teleport to your Trident. 
 **Raijin Secondary Abilities:**
 *Throw your Raijin, move a bit while sneaking to activate.*  
 Recall: Summon nearby Items back with your Raijin.  
-Raijin: Mark nearby entities with your Raijin, Summon them at will, sneak and right click 6+ blocks away to unmark.  
 
 (check the advancments menu for crafting and useage in game)  
 __You Can Rename and Enchant your Raijin Trident before and after its been Raijinified.__   
