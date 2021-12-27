@@ -9,4 +9,4 @@ execute store result score @e[sort=nearest,scores={raijin_id=0},type=trident,lim
 # execute store result score @e[sort=nearest,distance=..12] raijin_tag_along run scoreboard players get @s raijin_id
 # Reset RajinThrow Score
 scoreboard players set @s raijin_throw 0
-scoreboard players reset @s raijin_crouch
+# scoreboard players reset @s raijin_crouch

@@ -2,7 +2,7 @@
 # Login Player ID, Per Raijin
 execute as @a unless score @s raijin_id matches 1.. store result score @s raijin_id run scoreboard players add #last raijin_id 1
 # Teleport Detector
-execute as @a[scores={raijin_throw=1..}] run function raijin:lockon
+execute as @a[scores={raijin_throw=1..}] run function raijin:raijin_lock
 # TP / version for both hands.
 # Mojang, Add a "BothHands" syntax for item detection or HandItems to work on players or something so i dont have to put in 2 commands every tick!!
 execute as @a[scores={raijin=1..,raijin_lock=1..61},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}}] run function raijin:fr_lvl_2

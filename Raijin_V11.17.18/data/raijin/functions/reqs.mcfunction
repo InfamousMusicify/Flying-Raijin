@@ -16,4 +16,4 @@ scoreboard objectives add raijin_uid dummy "patch tracker"
 
 scoreboard objectives add raijin_crouch minecraft.custom:minecraft.crouch_one_cm
 
-scoreboard objectives add raijin_tag_along dummy
+# scoreboard objectives add raijin_tag_along dummy
