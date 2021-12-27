@@ -7,7 +7,8 @@ execute as @a[scores={raijin_lock=1..}] run scoreboard players remove @s raijin_
 #### Working Off for mechanic
 ##### execute at @a[scores={raijin_lock=0..1}] run execute as @e[scores={raijin_tag_along=1..},sort=nearest] if score @s raijin_tag_along = @a[limit=1,sort=nearest,scores={raijin_lock=0..1}] raijin_id run scoreboard players reset @s raijin_tag_along
 
-
+# reset crouch
+execute as @a[scores={raijin_lock=0..1}] run scoreboard players reset @s raijin_crouch
 #####
 # Unlock player lockon after 1 minute
 execute as @a[scores={raijin_lock=0..1}] run scoreboard players reset @s raijin_lock
