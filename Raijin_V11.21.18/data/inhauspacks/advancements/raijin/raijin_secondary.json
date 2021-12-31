@@ -5,8 +5,7 @@
             
             {"text":"Raijin to teleport to your trident.","color":"gold"},{"text":"\n"},
             {"text":"Level 1 to summon your trident.","color":"yellow"},{"text":"\n"},
-            {"text":"Summon Items with your trident:","color":"dark_green"},{"text":"\n"},
-            {"text":"Throw Trident, move while sneaking to activate. Level 1 to summon items.","color":"green"}
+            {"text":"Sneak and Level 1 to summon items.","color":"green"}
             
         ],
         "icon": {

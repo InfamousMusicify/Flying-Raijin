@@ -15,7 +15,7 @@ scoreboard players set @a raijin 0
 execute as @a[scores={raijin_recall=1..,raijin_lock=1..61},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}}] run function raijin:fr_lvl_1
 execute as @a[scores={raijin_recall=1..,raijin_lock=1..61},nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_1
 scoreboard players set @a raijin_recall 0
-# scoreboard players set @s raijin_crouch 0
+scoreboard players set @s raijin_crouch 0
 
 # Trident Lock Cooldown (for more accurate TP)
 execute as @a[scores={raijin_lock=61}] run function raijin:unlock_cd
