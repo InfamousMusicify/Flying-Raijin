@@ -28,7 +28,7 @@ There is a command block version in the Legacy Branch for 1.9-1.13.
 
 **[🔗Pack in Action!](https://youtu.be/sQXLHzxXQDE)  
 [🔗 Datapack Inspiration](https://youtu.be/Fd_vSRkGlv8)  
-[🔗 How to Install a Datapack](https://youtu.be/JHEjZlVlqGE)**  
+[🔗 How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)**  
 [🔗 Older Pack in action](https://youtu.be/dOuJNRJvqmY)  
 
 Big thanks to "たくぱんちゃんねる" for showcasing the pack!  
