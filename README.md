@@ -21,6 +21,7 @@ __You Can Rename and Enchant your Raijin Trident before and after its been Raiji
 
 
 ## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/archive/refs/heads/master.zip)   
+## [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Master)  
 ### [Navigate to Branches for older verions of the pack.](https://github.com/InfamousMusicify/Flying-Raijin/branches)
 
 There is a command block version in the Legacy Branch for 1.9-1.13.
