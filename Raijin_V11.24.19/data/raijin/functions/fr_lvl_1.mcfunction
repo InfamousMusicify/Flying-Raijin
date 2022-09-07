@@ -1,6 +1,5 @@
 # raijin:test1  (executes as player who used raijin recall click)
-# items
-execute at @e[limit=1,type=trident,scores={raijin_id=1..}] if score @e[type=trident,limit=1,distance=..0] raijin_id = @s[scores={raijin_crouch=1..}] raijin_id run tp @e[type=item,sort=nearest,distance=..8] @s
+
 #####################################################################################################################################################################
 # TP Trident -> Player
 # limited (bugged with multiplayer, first player to throw holds up other peoples recalls)
@@ -10,7 +9,11 @@ execute at @e[limit=1,type=trident,scores={raijin_id=1..}] if score @e[type=trid
 
 ##### extras:
 
+
 execute at @e[type=trident,scores={raijin_id=1..}] if score @e[type=trident,limit=1,distance=..0] raijin_id = @s raijin_id run tag @e[type=trident,limit=1,distance=..0] add rtp
+# items
+execute at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin_crouch=1..}] raijin_id run tp @e[type=item,sort=nearest,distance=..8] @s
+# TP Trident -> Player
 execute at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s raijin_id run tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..},tag=rtp] @s
 #execute at @e[type=trident,scores={raijin_id=1..}] run tag @e[type=trident,limit=1,distance=..0] remove rtp
 #execute if score @e[type=trident,limit=1] raijin_id = @s raijin_id run tp @e[limit=1,type=trident,scores={raijin_id=1..}] @s
