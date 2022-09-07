@@ -9,8 +9,8 @@
 
 ##### extras:
 
-
-execute at @e[type=trident,scores={raijin_id=1..}] if score @e[type=trident,limit=1,distance=..0] raijin_id = @s raijin_id run tag @e[type=trident,limit=1,distance=..0] add rtp
+#add tag to tridents (moved to raijin_lock)
+#execute at @e[type=trident,scores={raijin_id=1..}] if score @e[type=trident,limit=1,distance=..0] raijin_id = @s raijin_id run tag @e[type=trident,limit=1,distance=..0] add rtp
 # items
 execute at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin_crouch=1..}] raijin_id run tp @e[type=item,sort=nearest,distance=..8] @s
 # TP Trident -> Player

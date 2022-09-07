@@ -5,15 +5,15 @@ execute as @a unless score @s raijin_id matches 1.. store result score @s raijin
 execute as @a[scores={raijin_throw=1..}] run function raijin:raijin_lock
 # TP / version for both hands.
 # Mojang, Add a "BothHands" syntax for item detection or HandItems to work on players or something so i dont have to put in 2 commands every tick!!
-execute as @a[scores={raijin=1..,raijin_lock=1..61},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}}] run function raijin:fr_lvl_2
-execute as @a[scores={raijin=1..,raijin_lock=1..61},nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_2
+execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}}] run function raijin:fr_lvl_2
+execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_2
 # (Old school version)
-# execute as @a[scores={raijin=1..,raijin_lock=1..61},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_2
+# execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_2
 scoreboard players set @a raijin 0
 
 # Recall
-execute as @a[scores={raijin_recall=1..,raijin_lock=1..61},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}}] run function raijin:fr_lvl_1
-execute as @a[scores={raijin_recall=1..,raijin_lock=1..61},nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_1
+execute as @a[scores={raijin_recall=1..,raijin_lock=1..70},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}}] run function raijin:fr_lvl_1
+execute as @a[scores={raijin_recall=1..,raijin_lock=1..70},nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_1
 scoreboard players set @a raijin_recall 0
 scoreboard players set @s raijin_crouch 0
 
