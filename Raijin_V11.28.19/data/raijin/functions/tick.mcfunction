@@ -9,12 +9,12 @@ execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={SelectedItem:{id:"minec
 execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_2
 # (Old school version)
 # execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_2
-scoreboard players set @a raijin 0
+#scoreboard players set @a raijin 0
 
 # Recall
-execute as @a[scores={raijin_recall=1..,raijin_lock=1..70},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}}] run function raijin:fr_lvl_1
-execute as @a[scores={raijin_recall=1..,raijin_lock=1..70},nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag: {Tags: ["Raijin"]}}]}] run function raijin:fr_lvl_1
-scoreboard players set @a raijin_recall 0
+execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["RaijinL1"]}}}] run function raijin:fr_lvl_1
+execute as @a[scores={raijin=1..,raijin_lock=1..70},nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag: {Tags: ["RaijinL1"]}}]}] run function raijin:fr_lvl_1
+scoreboard players set @a raijin 0
 scoreboard players set @s raijin_crouch 0
 
 # Trident Lock Cooldown (for more accurate TP)

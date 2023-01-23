@@ -1,0 +1,3 @@
+
+{"type":"minecraft:loot","pools":[{"rolls":1,"entries":[{"type":"item","name":"minecraft:carrot_on_a_stick","functions":[{"function":"set_nbt","tag":"{CustomModelData:199042,Tags:[\"RaijinL1\"],Enchantments:[{}]}"},{"function":"set_name","name":[{"text":"Level 1","color":"white","italic":false}]},{"function":"set_lore","lore":[{"text":"Hiraishin No Jutsu","color":"gray","italic":false}]}]}]}]}
+
