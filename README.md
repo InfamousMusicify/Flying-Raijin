@@ -2,7 +2,7 @@
 ### Flying Raijin: Level 2 - Minecraft: Java Edition - Data Pack  
 
 **Become Minato Namikaze!**   
-(Craft Tridents into Teleportation Kunai)  
+(Teleport to your Trident!  Summon your Trident!)  
 
 **Crafting/Useage:**   
 _**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra. (it will be a book of knowledge until you click it.)  
