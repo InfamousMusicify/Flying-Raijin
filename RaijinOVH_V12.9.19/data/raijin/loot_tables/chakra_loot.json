@@ -1,0 +1,25 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:pig_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Chakra\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Energy you can leave your mark with.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:199043,Tag:Chakra,EntityTag:{id:\"minecraft:armor_stand\",Invisible:1b,Tags:[\"Cursed_chakra\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

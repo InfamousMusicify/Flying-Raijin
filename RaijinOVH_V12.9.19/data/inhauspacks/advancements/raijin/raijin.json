@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Crafting                                                              ",
+        "description": ["",
+            {"text":"Craft an Eye of Ender and a NameTag together to create Chakra,","color":"green"},{"text":"\n"},
+            {"text":"drop your trident on the ground and right click it with the Chakra.","color":"green"},{"text":"\n"},
+            {"text":"Trident will be endowed with Raijin.","color":"gold"},{"text":"\n"},
+            {"text":"You will recieve 2 Items.\nRaijin and Level 1.","color":"red"},{"text":"\n"},
+            {"text":"Craft an Ender Pearl and Nametag together for spare Raijin items.","color":"yellow"}
+
+        ],
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:raijin_pack",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "level1unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "raijin:chakra_rcp"
+            }
+        }
+    },
+    "rewards": {
+        "function": "raijin:fr/crafted_chakra"
+    }
+}
