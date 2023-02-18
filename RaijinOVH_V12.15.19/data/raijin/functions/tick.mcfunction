@@ -26,9 +26,9 @@ scoreboard players set @a chakra 0
 #execute as @a unless score @s raijin.exp.level = #config raijin.level.cap if score @s raijin.exp.point >= @s raijin.exp.cap run function raijin:exp/do_level_up
 #execute as @a run function raijin:exp/calcs
 # Exp Gain
-execute as @a[scores={raijin.exp.pearl=1..}] run function raijin:exp/item
-execute as @a[scores={raijin.exp.chorus=1..}] run function raijin:exp/item
-#execute as @a[scores={raijin.netportal=1..}] run function raijin:exp/item
+execute as @a[scores={raijin.exp.pearl=1..}] run function raijin:exp/pre_item
+execute as @a[scores={raijin.exp.chorus=1..}] run function raijin:exp/pre_item
+execute as @a[scores={raijin.netportal=1..}] run function raijin:exp/item
 #execute as @a[scores={raijin.endportal=1..}] run function raijin:exp/item
 #execute as @a[scores={raijin.endgate=1..}] run function raijin:exp/item
 

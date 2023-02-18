@@ -1,18 +1,18 @@
 #exp/item
-# done
-execute unless score #config raijin.level.cap = @s raijin.exp.level run function raijin:exp/pearl
-execute unless score #config raijin.level.cap = @s raijin.exp.level run function raijin:exp/chorus
-# WIP below
-execute unless score #config raijin.level.cap = @s raijin.exp.level run function raijin:exp/netportal
-execute unless score #config raijin.level.cap = @s raijin.exp.level run function raijin:exp/endportal
-execute unless score #config raijin.level.cap = @s raijin.exp.level run function raijin:exp/endgate
 
 
+execute as @s[scores={raijin.exp.pearl=1..}] run function raijin:exp/pearl
+execute as @s[scores={raijin.exp.chorus=1..}] run function raijin:exp/chorus
+execute as @a[scores={raijin.netportal=1..}] run function raijin:exp/netportal
+#execute as @a[scores={raijin.endportal=1..}] run function raijin:exp/endportal
+#execute as @a[scores={raijin.endgate=1..}] run function raijin:exp/endgate
 
 
 
 #execute unless score #config raijin.level.cap = @s raijin.exp.level run function raijin:exp/
 #execute unless score #config raijin.level.cap = @s raijin.exp.level run function raijin:exp/
+
+
 
 
 
@@ -28,3 +28,8 @@ execute unless score #config raijin.level.cap = @s raijin.exp.level run function
 #end portal detect
 #execute as @a if block ~ ~ ~ minecraft:end_portal run function raijin:exp/endportal
 #execute as @a if block ~ ~ ~ minecraft:end_gateway run function raijin:exp/endgate
+
+
+
+#other option for firing
+#execute if score @s raijin.exp.pearl matches 1.. run function raijin:exp/pearl

@@ -6,14 +6,26 @@
 #execute at @e[limit=1,type=trident,scores={raijin_id=1..}] if score @e[type=trident,limit=1,distance=..0] raijin_id = @s raijin_id run tp @e[limit=1,sort=nearest,type=trident,scores={raijin_id=1..}] @s
 # all tridents (no bugs but not as fun, recalls all)
 #execute at @e[type=trident,scores={raijin_id=1..}] if score @e[type=trident,limit=1,distance=..0] raijin_id = @s raijin_id run tp @e[limit=1,sort=nearest,type=trident,scores={raijin_id=1..}] @s
-execute if score #config raijin.xpt matches 1 run scoreboard players operation @s raijin.xpt = #config raijin.exp.lvl1
-execute if score #config raijin.xpt matches 1 run scoreboard players operation @s raijin.xpt *= @s raijin.num
+#invert math (redundant)
+#execute if score #config raijin.xpt matches 1 run scoreboard players operation @s raijin.xpt = #config raijin.exp.lvl1
+#execute if score #config raijin.xpt matches 1 run scoreboard players operation @s raijin.xpt *= @s raijin.num
 ###### Main working recall
 # items
-execute if score #config raijin.xpt matches 1 if score @s raijin.xpt <= @s raijin.exp.point at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin_crouch=1..,raijin.cooldown=0}] raijin_id run tp @e[type=item,sort=nearest,distance=..8] @s
+#execute if score #config raijin.xpt matches 1 if score @s raijin.xpt <= @s raijin.exp.point at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin_crouch=1..,raijin.cooldown=0}] raijin_id run tp @e[type=item,sort=nearest,distance=..8] @s
 # TP Trident -> Player
-execute if score #config raijin.xpt matches 1 if score @s raijin.xpt <= @s raijin.exp.point at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin.cooldown=0}] raijin_id run tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..},tag=rtp] @s
-######
+#execute if score #config raijin.xpt matches 1 if score @s raijin.xpt <= @s raijin.exp.point at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin.cooldown=0}] raijin_id run tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..},tag=rtp] @s
+###### New working test
+# teleport when exp is given to player
+# items
+execute if score #config raijin.xpt matches 1 if score #config raijin.exp.lvl1 matches 1.. at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin_crouch=1..,raijin.cooldown=0}] raijin_id run tp @e[type=item,sort=nearest,distance=..8] @s
+# TP Trident -> Player
+execute if score #config raijin.xpt matches 1 if score #config raijin.exp.lvl1 matches 1.. at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin.cooldown=0}] raijin_id run tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..},tag=rtp] @s
+
+# teleport when exp is taken and player has enouigh
+# items
+execute if score #config raijin.xpt matches 1 if score #config raijin.exp.lvl1 <= @s raijin.exp.point if score @s raijin.exp.point matches 1.. at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin_crouch=1..,raijin.cooldown=0}] raijin_id run tp @e[type=item,sort=nearest,distance=..8] @s
+# TP Trident -> Player
+execute if score #config raijin.xpt matches 1 if score #config raijin.exp.lvl1 <= @s raijin.exp.point if score @s raijin.exp.point matches 1.. at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin.cooldown=0}] raijin_id run tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..},tag=rtp] @s
 
 ####################################################################################################################################################################
 # Tp sounds
@@ -38,4 +50,4 @@ execute if score #config raijin.xpt matches 1 run tellraw @s[scores={raijin.exp.
 # cooldown
 execute at @e[limit=1,type=trident,scores={raijin_id=1..},tag=rtp] if score @e[type=trident,limit=1,distance=..0,tag=rtp] raijin_id = @s[scores={raijin.cooldown=0}] raijin_id as @s[scores={raijin.cooldown=0}] run scoreboard players operation @s raijin.cooldown = @s raijin.cdtracker
 # Exp gain and level up
-function raijin:exp/level_up
+#function raijin:exp/level_up

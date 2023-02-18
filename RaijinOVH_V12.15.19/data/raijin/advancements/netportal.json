@@ -1,0 +1,20 @@
+{
+      "__comment": "Oveworld to nether",
+    "criteria": {
+          "ovr2net": {
+              "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                  "from": "overworld",
+                "to": "the_nether"
+            }
+        }
+    },
+    "requirements": [
+          [
+              "ovr2net"
+        ]
+    ],
+    "rewards": {
+          "function": "raijin:exp/netportal"
+    }
+}

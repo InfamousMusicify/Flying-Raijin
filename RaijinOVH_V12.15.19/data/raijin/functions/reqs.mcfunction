@@ -30,7 +30,7 @@ execute unless score #config raijin.exp.level matches 0.. run scoreboard players
 # real xp point tracker
 scoreboard objectives add raijin.xp xp
 scoreboard objectives add raijin.xpt dummy
-execute unless score #config raijin.xpt matches 0.. run scoreboard players set #config raijin.xpt 1
+execute unless score #config raijin.xpt matches 0.. run scoreboard players set #config raijin.xpt 0
 #player exp points, per level
 scoreboard objectives add raijin.exp.point dummy
 execute unless score #config raijin.exp.point matches 0.. unless score #config raijin.exp.point matches ..0 run scoreboard players set #config raijin.exp.point 1

@@ -26,7 +26,8 @@ execute if score #config raijin.level.cap = @s raijin.exp.level run tellraw @s [
 
 # redundancy for level caps
 scoreboard players operation @s raijin.level.cap = #config raijin.level.cap
-
+# cycle levelup if player has more poiints
+execute if score @s raijin.exp.point >= @s raijin.exp.cap run function raijin:exp/do_level_up
 # store scores
 
 

@@ -21,4 +21,4 @@ execute at @e[sort=nearest,type=trident,scores={raijin_id=1..}] run tag @e[type=
 
 # Exp gain and level up
 function raijin:exp/level_up
-function raijin:set_check
+#function raijin:set_check
