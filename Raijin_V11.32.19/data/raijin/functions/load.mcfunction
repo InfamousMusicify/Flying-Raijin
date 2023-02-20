@@ -1,7 +1,7 @@
 # raijin:load
 ### Update Patch ###
 execute unless score #patch raijin_id matches 0.. run scoreboard players add #patch raijin_id 0
-execute if score #patch raijin_id matches ..60 run function raijin:patch
+#execute if score #patch raijin_id matches ..60 run function raijin:patch
 # Update patch number when pathcing,         ^ also update internal numbers. ^
 ### ### ###
 # fix scoreboard overload (1 under 32-bit integer limit)
@@ -15,11 +15,11 @@ function raijin:reqs
 
 # TEMP - Change for testing to check boards
 #scoreboard objectives setdisplay sidebar raijin.xp
-scoreboard objectives setdisplay sidebar raijin.cooldown
+#scoreboard objectives setdisplay sidebar raijin.cooldown
 #scoreboard objectives setdisplay sidebar raijin_id
 #function raijin:set_checkscoreboard objectives setdisplay sidebar raijin_lock
 #scoreboard objectives setdisplay sidebar raijin.cooldown
-advancement revoke @a only raijin:new
+#advancement revoke @a only raijin:new
 #advancement revoke @a only raijin:netportal
 
 # # # # # # # # # # #
