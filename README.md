@@ -19,6 +19,9 @@ Sneak while using Level 1 to summon items with your trident!
 (check the advancments menu for crafting and useage in game)  
 __You Can Rename and Enchant your Raijin Trident before and after its been Raijinified.__   
 
+~~~
+/function raijin:config
+~~~
 
 ## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/archive/refs/heads/master.zip)   
 ## [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/releases)  
