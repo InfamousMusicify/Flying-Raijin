@@ -18,9 +18,12 @@ scoreboard players add @s raijin.cooldown 0
 #scoreboard players add @s raijin.exp.endportal 0
 #scoreboard players add @s raijin.exp.endgate 0
 #scoreboard players add @s raijin.exp.point 0
-
-scoreboard players set @s raijin.num -1
+scoreboard players add @s raijin_lock 0
+#scoreboard players set @s raijin.num -1
 ################## Other newbie things
-scoreboard players operation @s raijin_lock = #config raijin_lock
+
+
+# extra notes
+#scoreboard players operation @s raijin_lock = #config raijin_lock
 
 
