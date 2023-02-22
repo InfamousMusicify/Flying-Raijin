@@ -46,9 +46,9 @@ scoreboard objectives add raijin_crouch minecraft.custom:minecraft.sneak_time
 
 ############################################################ utility
 scoreboard objectives add raijin.cooldown dummy
-execute unless score #config raijin.cooldown matches 0.. run scoreboard players set #config raijin.cooldown 40
+execute unless score #config raijin.cooldown matches 0.. run scoreboard players set #config raijin.cooldown 0
 scoreboard objectives add raijin.cdtracker dummy
-execute unless score #config raijin.cdtracker matches 0.. run scoreboard players set #config raijin.cdtracker 40
+execute unless score #config raijin.cdtracker matches 0.. run scoreboard players set #config raijin.cdtracker 0
 #scoreboard objectives add raijin.0 dummy
 #execute unless score #config raijin.0 matches 0.. unless score #config raijin.0 matches ..0 run scoreboard players set #config raijin.0 0
 #scoreboard objectives add raijin.num dummy
