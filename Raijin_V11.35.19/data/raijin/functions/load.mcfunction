@@ -9,6 +9,7 @@ execute if score #last raijin_id matches 2147483646.. run function raijin:uninst
 ###
 # Scoreboard add #
 function raijin:reqs
+schedule function raijin:exp/clock 1s
 #schedule function raijin:exp/clock 1s
 # 
 
