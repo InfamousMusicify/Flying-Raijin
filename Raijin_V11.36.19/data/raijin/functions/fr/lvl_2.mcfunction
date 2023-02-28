@@ -16,4 +16,4 @@ function raijin:tpsound
 
 #cooldown
 #execute if score #config raijin.exp.lvl2 <= @s raijin.exp.point run 
-scoreboard players operation @s[scores={raijin.cooldown=0}] raijin.cooldown = @s raijin.cdtracker
+scoreboard players operation @s raijin.cooldown = @s raijin.cdtracker
