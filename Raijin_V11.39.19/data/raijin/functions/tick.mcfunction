@@ -6,7 +6,7 @@ execute as @a[scores={raijin_throw=1..}] run function raijin:raijin_lock
 # TP / version for both hands.
 execute as @a[scores={raijin=1..,raijin_lock=1..}] run function raijin:fr/lvl
 scoreboard players set @a raijin 0
-scoreboard players set @s raijin_crouch 0
+scoreboard players set @a raijin_crouch 0
 
 # Trident Lock Cooldown (for more accurate TP)
 #execute as @a[scores={raijin_lock=61}] run function raijin:unlock_cd

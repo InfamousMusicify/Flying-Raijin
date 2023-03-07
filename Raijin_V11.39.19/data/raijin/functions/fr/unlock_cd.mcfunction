@@ -12,12 +12,12 @@ execute as @a[scores={raijin_lock=1..}] run scoreboard players remove @s raijin_
 #execute as @a[scores={raijin_lock=0..1}] run scoreboard players reset @s raijin_crouch
 #####
 # Unlock player lockon after 1 minute
-execute as @a[scores={raijin_lock=0..1}] run scoreboard players reset @s raijin_lock
+execute as @a[scores={raijin_lock=..1}] run scoreboard players reset @s raijin_lock
 
 ############################### Last lines
 # schedule 1 second/ 1 point score reduction
 #execute if entity @a[scores={raijin_lock=1..}] run schedule function raijin:fr/unlock_cd 1s
-execute as @a[scores={raijin_lock=1..}] run schedule function raijin:fr/unlock_cd 1s
+execute as @a[scores={raijin_lock=1..},limit=1] run schedule function raijin:fr/unlock_cd 1s
 
 
 

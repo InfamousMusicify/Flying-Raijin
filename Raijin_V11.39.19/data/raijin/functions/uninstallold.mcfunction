@@ -1,4 +1,3 @@
-# raijin:uninstall
 scoreboard objectives remove Raijin
 scoreboard objectives remove RaijinThrow
 scoreboard objectives remove RaijinTimer
