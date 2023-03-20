@@ -1,6 +1,6 @@
 # raijin:load
 ### Update Patch ###
-execute unless score #patch raijin_id matches 0.. run scoreboard players add #patch raijin_id 0
+#execute unless score #patch raijin_id matches 0.. run scoreboard players add #patch raijin_id 0
 #execute if score #patch raijin_id matches ..60 run function raijin:patch
 # Update patch number when pathcing,         ^ also update internal numbers. ^
 ### ### ###

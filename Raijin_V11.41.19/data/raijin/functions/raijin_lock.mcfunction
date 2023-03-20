@@ -1,6 +1,7 @@
 # raijin:lockon
 # set player lockon score to 1 minute cooldown
-scoreboard players set @s raijin_lock 70
+#scoreboard players set @s raijin_lock 70
+scoreboard players operation @s raijin_lock = #config raijin_lock
 # bug fix to activate trident score
 scoreboard players add @e[type=trident,sort=nearest] raijin_id 0
 # Set thrown trident score to player ID.  # Called by tick (at player who throws trident)

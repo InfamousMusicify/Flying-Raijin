@@ -12,6 +12,7 @@ scoreboard objectives add raijin_id dummy
 # Trident in world filter (tracks 70 seconds, used to sync lockon for each player)
 scoreboard objectives add raijin_lock dummy
 execute unless score #config raijin_lock matches 0.. unless score #config raijin_lock matches ..0 run scoreboard players set #config raijin_lock 70
+
 # Patch Tracker
 # scoreboard objectives add raijin_uid dummy "patch tracker"
 
