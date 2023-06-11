@@ -1,6 +1,8 @@
 # raijin Tick / Calls all functions
 # Login Player ID, Per Raijin
 execute as @a unless score @s raijin_id matches 1.. store result score @s raijin_id run scoreboard players add #last raijin_id 1
+execute as @a[scores={raijin_logout=1..}] run function raijin:logout
+
 # trident ID and lockon
 execute as @a[scores={raijin_throw=1..}] run function raijin:raijin_lock
 # Raijin
