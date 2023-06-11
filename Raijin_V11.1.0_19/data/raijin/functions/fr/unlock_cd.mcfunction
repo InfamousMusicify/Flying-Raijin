@@ -1,4 +1,6 @@
 #say unlcokcd
+execute as @a[scores={raijin_lock=1..},limit=1] run schedule function raijin:fr/unlock_cd 1s
+#execute if entity @a[scores={raijin_lock=1..},limit=1] run schedule function raijin:fr/unlock_cd 1s
 # Unlock cooldown
 # remove point
 execute as @a[scores={raijin_lock=1..}] run scoreboard players remove @s raijin_lock 1
@@ -17,7 +19,7 @@ execute as @a[scores={raijin_lock=..1}] run scoreboard players reset @s raijin_l
 ############################### Last lines
 # schedule 1 second/ 1 point score reduction
 #execute if entity @a[scores={raijin_lock=1..}] run schedule function raijin:fr/unlock_cd 1s
-execute as @a[scores={raijin_lock=1..},limit=1] run schedule function raijin:fr/unlock_cd 1s
+
 
 
 

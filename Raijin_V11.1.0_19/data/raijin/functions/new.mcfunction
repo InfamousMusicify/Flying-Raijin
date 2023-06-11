@@ -10,7 +10,7 @@
 # 33
 #scoreboard players operation @s raijin.level.cap = #config raijin.level.cap
 # 100
-scoreboard players operation @s raijin.cdtracker = #config raijin.cdtracker
+scoreboard players operation @s raijin.cdtracker = #config raijin.cooldown
 # 0
 scoreboard players add @s raijin.cooldown 0
 #scoreboard players add @s raijin.netportal 0

@@ -6,7 +6,8 @@
             {"text":"drop your trident on the ground and right click it with the Chakra.","color":"green"},{"text":"\n"},
             {"text":"Trident will be endowed with Raijin.","color":"gold"},{"text":"\n"},
             {"text":"You will recieve 2 Items.\nRaijin and Level 1.","color":"red"},{"text":"\n"},
-            {"text":"Craft an Ender Pearl and Nametag together for spare Raijin items.","color":"yellow"}
+            {"text":"Craft an Ender Pearl and Nametag together for spare Raijin items.","color":"yellow"},{"text":"\n"},
+            {"text":"To remove Raijin:\nThrow Trident on top of a grindstone.","color":"blue"}
 
         ],
         "icon": {

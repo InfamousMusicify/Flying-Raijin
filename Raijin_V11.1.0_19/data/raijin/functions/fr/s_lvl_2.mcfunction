@@ -1,4 +1,4 @@
-execute unless score #config raijin.cooldown matches ..10 run tellraw @s[scores={raijin.cooldown=1..},tag=frcdmsg] ["",{"text":"Flying Raijin:","color":"gold"},{"text":" Cooling Down","color":"red"}]
+execute unless score #cdmsg raijin_id matches 1.. unless score #config raijin.cooldown matches ..10 run tellraw @s[scores={raijin.cooldown=1..},tag=frcdmsg] ["",{"text":"Flying Raijin:","color":"gold"},{"text":" Cooling Down","color":"red"}]
 tag @s[scores={raijin.cooldown=1..}] remove frcdmsg
 execute unless score #config raijin.cooldown matches ..10 run tag @s[scores={raijin.cooldown=0}] add frcdmsg
 
