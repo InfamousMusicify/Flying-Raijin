@@ -23,6 +23,8 @@ __Throw a Raijin trident on top of a grindstone to remove Raijin.__
 ~~~
 /function raijin:config
 ~~~
+#### Compatibility: 1.9-1.20+  
+
 
 ## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/archive/refs/heads/master.zip)   
 ## [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/releases)  
@@ -31,6 +33,7 @@ __Throw a Raijin trident on top of a grindstone to remove Raijin.__
 There is a command block version in the Legacy Branch for 1.9-1.13.
 
 **[🔗Pack in Action!](https://youtu.be/sQXLHzxXQDE)  
+[🔗Up to Date- Pack in Action!](https://youtu.be/U7rVIvqq9fs)   
 [🔗 Datapack Inspiration](https://youtu.be/Fd_vSRkGlv8)  
 [🔗 How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)**  
 [🔗 Older Pack in action](https://youtu.be/dOuJNRJvqmY)  
