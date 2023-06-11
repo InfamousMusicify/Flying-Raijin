@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:knowledge_book"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "raijin:chakra_rcp"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_book",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"function": "raijin:crafted_chakra"
+	}
+}
