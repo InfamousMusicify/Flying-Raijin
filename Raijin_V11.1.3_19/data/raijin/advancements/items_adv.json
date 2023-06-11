@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "level1unlocked": {
+        "level2unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "raijin:fr_lvl_2_link"
+                "recipe": "raijin:items"
             }
         }
     },
     "rewards": {
-        "function": "raijin:crafted_fr_lvl_2_link"
+        "function": "raijin:crafted_items"
     }
 }
