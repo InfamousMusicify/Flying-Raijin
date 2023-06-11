@@ -22,7 +22,9 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:trident",Count:1b,tag:{display:
 # {id:"minecraft:trident"}
 
 
-
-
-
+##### scheduled redundancies
+#recipe take @a raijin:chakra_rcp
+#recipe take @a raijin:items
+#execute as @a run recipe take @s raijin:chakra_rcp
+#execute as @a run recipe take @s raijin:items
 #say schedule
