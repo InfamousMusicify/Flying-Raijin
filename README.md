@@ -18,6 +18,7 @@ Sneak while using Level 1 to summon items with your trident!
 
 (check the advancments menu for crafting and useage in game)  
 __You Can Rename and Enchant your Raijin Trident before and after its been Raijinified.__   
+__Throw your a Raijin trident on top of a grindstone to remove Raijin.__   
 
 ~~~
 /function raijin:config
