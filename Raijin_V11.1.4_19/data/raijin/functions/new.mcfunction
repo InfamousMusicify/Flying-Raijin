@@ -22,11 +22,11 @@ scoreboard players add @s raijin_lock 0
 #scoreboard players set @s raijin.num -1
 ################## Other newbie things
 
-recipe give @s raijin:chakra_rcp_swap
-recipe give @s raijin:items_swap
+#recipe give @s raijin:chakra_rcp_swap
+#recipe give @s raijin:items_swap
 
-recipe take @a raijin:chakra_rcp
-recipe take @a raijin:items
+#recipe take @a raijin:chakra_rcp
+#recipe take @a raijin:items
 
 # extra notes
 #scoreboard players operation @s raijin_lock = #config raijin_lock
