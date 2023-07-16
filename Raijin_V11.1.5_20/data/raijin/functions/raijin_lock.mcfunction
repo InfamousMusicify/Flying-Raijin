@@ -14,3 +14,5 @@ execute at @e[sort=nearest,type=trident,scores={raijin_id=1..}] run tag @e[type=
 # Reset RajinThrow Score
 scoreboard players set @s raijin_throw 0
 # scoreboard players reset @s raijin_crouch
+
+
