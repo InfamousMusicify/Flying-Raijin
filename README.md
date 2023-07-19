@@ -4,6 +4,8 @@
 **Become Minato Namikaze!**   
 (Teleport to your Trident!  Summon your Trident!)  
 
+## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md)      
+
 **Crafting/Useage:**   
 _**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra. (it will be a book of knowledge until you click it.)  
 Throw your trident on the ground and right click it with the Chakra._   
@@ -16,19 +18,29 @@ _**2:** Throw the Trident and right click "Raijin" to Teleport to your Trident. 
 **Raijin Secondary Abilities:**  
 Sneak while using Level 1 to summon items with your trident!    
 
-(check the advancments menu for crafting and useage in game)  
+### Check the advancments menu for crafting and useage in game  
 __You Can Rename and Enchant your Raijin Trident before and after its been Raijinified.__   
 __Throw a Raijin trident on top of a grindstone to remove Raijin.__   
 
+Options:    
+Save Tridents from the void if they have loyalty or raijin!  
+Immortal Tridents or Raijins if admin enabled.  
+Set Auto Recall Time in seconds.  Instant auto recall option.  
+
+  
+~~~
+Default settings:
+lockon = 60 - cooldown = 0
+wait_msg = on - ready_msg = on
+immortal_trident = off - immortal_raijin = off
+save_trident = on - save_raijin = on
+auto_recall = on - instant_recall = on
+~~~
 ~~~
 /function raijin:config
+/function raijin:presets
 ~~~
 #### Compatibility: 1.9-1.20+  
-
-
-## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/archive/refs/heads/master.zip)   
-## [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/releases)  
-### [Navigate to Branches for older verions of the pack.](https://github.com/InfamousMusicify/Flying-Raijin/branches)
 
 There is a command block version in the Legacy Branch for 1.9-1.13.
 
