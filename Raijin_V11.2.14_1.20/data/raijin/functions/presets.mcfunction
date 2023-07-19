@@ -1,7 +1,7 @@
 #presets
 # tellraw
 tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @s ["                Flying Raijin: Level 2",{"text":" / ","color":"gray"},"Presets                         "]
+tellraw @s ["                Flying Raijin: Level 2",{"text":" / ","color":"gray"},"Presets"]
 tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
 tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/function raijin:preset/1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Default preset.","color":"gray"},{"text":"\nlockon = 60 \ncooldown = 0 \nwait_msg = on \nready_msg = on \nimmortal_trident = off \nimmortal_raijin = off \nsave_trident = on \nsave_raijin = on \nauto_recall = on \ninstant_recall = on","color":"dark_gray"}]}}," 1 Default ",{"text":"","color":"gray"},{"score":{"name":"#","objective":""},"color":"gray"},{"text":"","color":"gray"}]
 
