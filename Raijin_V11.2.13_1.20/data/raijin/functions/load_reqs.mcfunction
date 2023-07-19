@@ -21,11 +21,12 @@ execute unless score #cdtracker raijin.config matches 0.. run scoreboard players
 execute unless score #cdmsg_wait raijin.config matches 0.. run scoreboard players set #cdmsg_wait raijin.config 0
 execute unless score #cdmsg_ready raijin.config matches 0.. run scoreboard players set #cdmsg_ready raijin.config 0
 # arb scoreboard presets
-execute unless score #immortal raijin.config matches 0.. run scoreboard players set #immortal raijin.config 0
+execute unless score #immortal_trident raijin.config matches 0.. run scoreboard players set #immortal_trident raijin.config 0
+execute unless score #immortal_raijin raijin.config matches 0.. run scoreboard players set #immortal_raijin raijin.config 0
 execute unless score #save_trident raijin.config matches 0.. run scoreboard players set #save_trident raijin.config 0
 execute unless score #save_raijin raijin.config matches 0.. run scoreboard players set #save_raijin raijin.config 0
-execute unless score #autorecall raijin.config matches 0.. run scoreboard players set #autorecall raijin.config 0
-
+execute unless score #auto_recall raijin.config matches 0.. run scoreboard players set #auto_recall raijin.config 0
+execute unless score #instant_recall raijin.config matches 0.. run scoreboard players set #instant_recall raijin.config 0
 
 ############################################################ extra - arbitrary - aesthetic
 execute unless score #preset raijin.config matches 0.. run scoreboard players set #preset raijin.config 1
