@@ -10,13 +10,13 @@
 _**1:** Put an Eye of Ender and a NameTag in a crafting grid to create Chakra. (it will be a book of knowledge until you click it.)  
 Throw your trident on the ground and right click it with the Chakra._   
 
-*__The Trident will be endowed with Raijin.__   You will recieve a Raijin and a Level 1 Item.*  
+*__The Trident will be endowed with Raijin.__   You will recieve a Raijin and a Kuchiyose Item.*  
 
-_**2:** Throw the Trident and right click "Raijin" to Teleport to your Trident.   Right click "Level 1" to summon your trident._    
-**Spare Raijin Items Crafting:** Put an Ender Pearl and Nametag in a crafting grid to craft a spare Raijin/Level 1.    
+_**2:** Throw the Trident and right click "Raijin" to Teleport to your Trident.   Right click "Kuchiyose" to summon your trident._    
+**Spare Raijin Items Crafting:** Put an Ender Pearl and Nametag in a crafting grid to craft a spare Raijin/Kuchiyose.    
 
 **Raijin Secondary Abilities:**  
-Sneak while using Level 1 to summon items with your trident!    
+Sneak while using Kuchiyose to summon items with your trident!    
 
 ### Check the advancments menu for crafting and useage in game  
 __You Can Rename and Enchant your Raijin Trident before and after its been Raijinified.__   
