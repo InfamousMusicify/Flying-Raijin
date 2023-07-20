@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Raijin Admin Options:                            ",
+        "description": ["",
+            {"text":"Raijin Cooldown","color":"red"},{"text":"\n"},
+            {"text":"Trident/Raijins are Immortal.","color":"red"},{"text":"\n"},
+            {"text":"Raijins auto recall after a timer.","color":"red"},{"text":"\n"},
+            {"text":"/function raijin:config","color":"dark_red"}
+        ],
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:raijin/raijin_0",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

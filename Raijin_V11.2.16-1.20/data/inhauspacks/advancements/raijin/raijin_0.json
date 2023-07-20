@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Raijin Abilities                            ",
+        "description": ["",
+            
+            {"text":"Raijin to teleport to your trident.","color":"gold"},{"text":"\n"},
+            {"text":"Kuchiyose to summon your trident.","color":"yellow"},{"text":"\n"},
+            {"text":"Sneak and Kuchiyose to summon items.","color":"green"},{"text":"\n"},
+            {"text":"Tridents with Loyalty/Raijin will return from the void!","color":"blue"}
+        ],
+        "icon": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:raijin/raijin",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

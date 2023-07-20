@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "Flying Raijin: Level 2",
+        "description": ["",
+            {"text":"Hiraishin No Jutsu","color":"green"},{"text":"\n"},
+            {"text":"Become Minato Namikaze.","color":"gold"},{"text":"\n"},
+            {"text":"Teleport to your Trident! \nSummon your Trident!","color":"blue"}
+        ],
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:zxin",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
