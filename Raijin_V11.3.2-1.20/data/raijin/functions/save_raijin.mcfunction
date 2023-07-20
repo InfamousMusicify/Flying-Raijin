@@ -19,5 +19,7 @@ execute if score #instant_recall raijin.config matches 1.. run scoreboard player
 #execute if score #immortal_trident raijin.config matches 1.. as @e[type=minecraft:trident,scores={raijin_id=0..}] run data merge entity @s {life:1s,Invulnerable:1b}
 #execute if score #immortal_raijin raijin.config matches 1.. as @e[type=minecraft:trident,predicate=raijin:raijin] run data merge entity @s {life:1s,Invulnerable:1b}
 
+
+# this has no effect on collection after dmg taken
 #execute unless entity @s[tag=raijin_saved] run data modify entity @s DealtDamage set value 1b
 #tag @s add raijin_saved
