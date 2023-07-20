@@ -1,7 +1,7 @@
 ## [Releases](https://github.com/InfamousMusicify/Flying-Raijin/releases/) - [Tags](https://github.com/InfamousMusicify/Flying-Raijin/tags/) - [Branches](https://github.com/InfamousMusicify/Flying-Raijin/branches) - [Archive](https://github.com/InfamousMusicify/Flying-Raijin/releases/tag/Archive) - [Archive 2](https://github.com/InfamousMusicify/Flying-Raijin/releases/tag/Archive2)        
 
 
-### [🔗1.20](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.20/Raijin_V11.2.15-1.20.zip)     
+### [🔗1.20](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.20/Raijin_V11.2.16-1.20.zip)     
 
 ### [🔗1.19](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/11.1/Raijin_V11.1.5_19.zip) - [🔗1.19.4](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/11.1/Raijin_V11.1.5_19.zip)    
 
