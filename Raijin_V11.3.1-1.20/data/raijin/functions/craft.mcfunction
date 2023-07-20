@@ -5,5 +5,7 @@ execute unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag: 
 execute unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag: {Tags: ["RaijinL1"]}}]}] run loot give @s loot raijin:fr_lvl_1_link
 # Play Crafting Sounds and particles
 execute at @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..3] run function raijin:craft_effects
-execute as @e[type=minecraft:armor_stand,tag=Cursed_chakra] run kill @s
+
+
+#execute as @e[type=minecraft:armor_stand,tag=raijin_chakra] run kill @s
 
