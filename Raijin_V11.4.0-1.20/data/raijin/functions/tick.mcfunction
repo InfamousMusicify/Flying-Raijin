@@ -16,7 +16,7 @@ execute if score #save_raijin raijin.config matches 0 as @e[type=minecraft:tride
 execute as @a[scores={raijin_throw=1..}] run function raijin:raijin_lock
 
 # Raijin
-execute as @a[scores={raijin=1..,raijin_lock=1..}] run function raijin:fr/lvl
+execute as @a[scores={raijin=1..}] run function raijin:fr/lvl
 scoreboard players set @a raijin 0
 scoreboard players set @a raijin_crouch 0
 

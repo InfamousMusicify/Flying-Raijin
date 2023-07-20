@@ -1,1 +1,0 @@
-tp @e[type=item,sort=nearest,distance=..8] @s
