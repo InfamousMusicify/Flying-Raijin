@@ -1,3 +1,7 @@
 notes/
 Downloads.md
 README.md
+
+git rm --cached Downloads.md
+git rm --cached README.md
+git rm --cached notes/
