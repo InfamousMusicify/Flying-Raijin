@@ -17,5 +17,5 @@ scoreboard players set @a raijin_crouch 0
 # raijin cooldown
 execute as @a[scores={raijin.cooldown=1..}] run function raijin:cooldown
 # Craft trident from chakra
-execute as @a[scores={chakra=1..}] run function raijin:craft_start
-scoreboard players set @a chakra 0
+execute as @a[scores={raijin_chakra=1..}] run function raijin:craft_start
+scoreboard players set @a raijin_chakra 0

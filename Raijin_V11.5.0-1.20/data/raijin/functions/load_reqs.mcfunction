@@ -1,6 +1,6 @@
 # Creates all Raijin Reqs
 # crafting
-scoreboard objectives add chakra minecraft.used:minecraft.pig_spawn_egg
+scoreboard objectives add raijin_chakra minecraft.used:minecraft.pig_spawn_egg
 # flying raijin level 2 (teleport to trident)
 scoreboard objectives add raijin minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add raijin_crouch minecraft.custom:minecraft.sneak_time
