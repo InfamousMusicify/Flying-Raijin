@@ -5,7 +5,7 @@ scoreboard players operation @s raijin_lock = #raijin_lock raijin.config
 # tracker for non raijin tridents  -old bug fix to activate trident score
 scoreboard players add @e[type=trident,sort=nearest] raijin_id 0
 # Set thrown trident score to player ID.  # Called by tick (at player who throws trident)
-#OG# execute store result score @e[sort=nearest,scores={raijin_id=0},type=trident,limit=1,nbt={Trident: {id: "minecraft:trident", Count: 1b, tag: {Tags: ["Raijin"]}}}] raijin_id run scoreboard players get @s raijin_id
+#og# execute store result score @e[sort=nearest,scores={raijin_id=0},type=trident,limit=1,nbt={Trident: {id: "minecraft:trident", Count: 1b, tag: {Tags: ["Raijin"]}}}] raijin_id run scoreboard players get @s raijin_id
 execute store result score @e[type=minecraft:trident,limit=1,scores={raijin_id=0},predicate=raijin:raijin] raijin_id run scoreboard players get @s raijin_id
 # tag trident for order of teleport -pre predicate redundancy -also easier to type than the predicate.
 execute at @e[sort=nearest,type=trident,scores={raijin_id=1..}] run tag @e[type=trident,limit=1,distance=..0] add rtp
