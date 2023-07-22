@@ -50,6 +50,10 @@ There is a command block version in the Legacy Branch for 1.9-1.13.
 [🔗Pack in Action!](https://youtu.be/sQXLHzxXQDE)  
 [🔗 Older Pack in action](https://youtu.be/dOuJNRJvqmY)**  
 
+```
+AKA: Flying Raijin: Level 2 - Flying Trident: Level 2 - Flying Raijin Level 2 - Flying Raijin - Raijin - RTP - Flying Thunder God Technique - Hiraishin Ni No Dan - Hiraishin No Jutsu - Flying Raijin Jutsu - Poseidon's Wrath
+```
+
 ### [Donations appreciated:🔗](https://www.patreon.com/InfamousMusicify)   
 __All of my projects take an inordinate amount of time to upkeep/create.  
 I use my free time to make them. Any support would be much appreciated!  
