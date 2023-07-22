@@ -1,6 +1,6 @@
 # raijin:patch
 # update patch to fix scoreboards after changes
-scoreboard players set #patch raijin.config 91
+scoreboard players set #patch raijin.config 101
 #  (Patch-# = ^)                             ^
 
 

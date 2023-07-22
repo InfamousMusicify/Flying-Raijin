@@ -18,7 +18,7 @@ execute if score #instant_recall raijin.config matches 1.. run scoreboard player
 ##### data merge entity @s {life:1s}
 
 
-#tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..},tag=rtp] @s
+#tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..},tag=raijin_tp] @s
 
 #data merge entity @s {life:1s,Invulnerable:1b}
 #execute if score #immortal_trident raijin.config matches 1.. as @e[type=minecraft:trident,scores={raijin_id=0..}] run data merge entity @s {life:1s,Invulnerable:1b}
