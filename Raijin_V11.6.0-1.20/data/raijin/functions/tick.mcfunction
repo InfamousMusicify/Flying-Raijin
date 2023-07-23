@@ -9,7 +9,7 @@ execute as @a[scores={raijin_logout=1..}] run function raijin:logout
 execute if score #save_trident raijin.config matches 0 as @e[type=minecraft:trident,predicate=raijin:loyal,tag=!trident_saved] run function raijin:save_trident
 execute if score #save_raijin raijin.config matches 0 as @e[type=minecraft:trident,predicate=raijin:loyal_raijin,tag=!trident_saved] run function raijin:save_raijin
 # trident ID and lockon
-execute as @a[scores={raijin_throw=1..}] run function raijin:fr/lockon
+execute as @a[scores={raijin_throw=1..}] run function raijin:raijin_lock
 # Raijin
 execute as @a[scores={raijin=1..}] run function raijin:fr/lvl
 scoreboard players set @a raijin 0
