@@ -13,8 +13,8 @@ function raijin:load_reqs
 ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### 
 schedule clear raijin:tick
 schedule clear raijin:tick_1s
-schedule function raijin:tick 1t
-schedule function raijin:tick_1s 1s
+#schedule function raijin:tick 1t
+#schedule function raijin:tick_1s 1s
 #
 
 

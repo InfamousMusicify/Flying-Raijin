@@ -2,7 +2,7 @@
 # mini uninstall for patches and keeping settings intact thru updates.
 #
 # scoreboard objectives remove raijin.config
-scoreboard objectives remove chakra
+scoreboard objectives remove raijin_chakra
 scoreboard objectives remove raijin
 scoreboard objectives remove raijin_id
 scoreboard objectives remove raijin_crouch

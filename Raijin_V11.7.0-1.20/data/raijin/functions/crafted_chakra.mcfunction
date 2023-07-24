@@ -1,8 +1,8 @@
+
 clear @s minecraft:knowledge_book
-loot give @s loot raijin:chakra_loot
 advancement revoke @s only raijin:chakra_adv
 recipe take @s raijin:chakra_rcp
-
+loot give @s loot raijin:chakra_loot
 
 
 

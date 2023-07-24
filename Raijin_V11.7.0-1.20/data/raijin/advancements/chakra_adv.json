@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "level1unlocked": {
+        "chakraunlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
                 "recipe": "raijin:chakra_rcp"

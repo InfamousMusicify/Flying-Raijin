@@ -1,9 +1,9 @@
 {
     "criteria": {
-        "level2unlocked": {
+        "itemsunlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "raijin:items"
+                "recipe": "raijin:items_rcp"
             }
         }
     },

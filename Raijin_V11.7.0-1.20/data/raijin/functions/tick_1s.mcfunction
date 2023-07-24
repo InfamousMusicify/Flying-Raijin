@@ -15,4 +15,6 @@ execute if score #immortal_trident raijin.config matches 0 if score #immortal_ra
 execute if score #auto_recall raijin.config matches 0 as @e[type=minecraft:trident,predicate=raijin:raijin,scores={raijin_lock=0}] run function raijin:save_raijin
 
 
-
+# old crafting on ground
+execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:name_tag",Count:1b}}] at @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_eye",Count:1b}},distance=..1] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},distance=..1] at @s if block ~ ~-0.01 ~ minecraft:enchanting_table run function raijin:craft
+#execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:name_tag",Count:1b}}] at @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_pearl",Count:1b}},distance=..1] run function raijin:crafted_items_old
