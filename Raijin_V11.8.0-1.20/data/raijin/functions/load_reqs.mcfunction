@@ -8,7 +8,7 @@ scoreboard objectives add raijin_crouch minecraft.custom:minecraft.sneak_time
 scoreboard objectives add raijin_throw minecraft.used:minecraft.trident
 # Trident in world filter (tracks 70 seconds, used to sync lockon for each player)
 scoreboard objectives add raijin_lock dummy
-execute unless score #raijin_lock raijin.config matches 0.. unless score #raijin_lock raijin.config matches ..0 run scoreboard players set #raijin_lock raijin.config 60
+execute unless score #raijin_lock raijin.config matches 0.. run scoreboard players set #raijin_lock raijin.config 60
 #logout/in tracker for new/login advs
 scoreboard objectives add raijin_logout minecraft.custom:minecraft.leave_game
 

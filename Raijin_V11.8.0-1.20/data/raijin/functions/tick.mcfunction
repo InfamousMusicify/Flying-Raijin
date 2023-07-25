@@ -3,7 +3,7 @@
 #
 schedule function raijin:tick 1t
 execute as @a unless score @s raijin_id matches 1.. store result score @s raijin_id run scoreboard players add #last raijin_id 1
-# loging/out redundancy
+# login/out redundancy
 execute as @a[scores={raijin_logout=1..}] run function raijin:logout
 # save tridents from void
 execute if score #save_trident raijin.config matches 0 as @e[type=minecraft:trident,predicate=raijin:loyal,tag=!trident_saved] run function raijin:save_trident
