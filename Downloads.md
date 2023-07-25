@@ -15,7 +15,7 @@ Backports will be updated with bug fixes soon.
 
 ### [🔗1.15 - 1.16.1](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.15%E2%80%931.16.1/Raijin_V11.4.n3-1.15.16.zip)   
 
+### [🔗1.14+](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.8.n3-1.14.zip) 
 
-
-### [🔗1.13 - 1.13.2](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.4.n11-1.13.2.zip) - [🔗1.14+](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.4.n10-1.13-14.zip) 
+### [🔗1.13+](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.8.n4-1.13.zip)  
 you may have to tinker around to find out which of the 1.13-14 downloads works for certain 1.14.x versions as mojang changed nbt from 1.13.2-1.14.4      
