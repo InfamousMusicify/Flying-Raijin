@@ -4,7 +4,7 @@
 **Become Minato Namikaze!**   
 (Teleport to your Trident!  Summon your Trident!)  
 
-### Check the advancments menu for crafting and useage in game  
+### Check the advancements menu for crafting and usage in game.  
 
 ## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md)      
 
