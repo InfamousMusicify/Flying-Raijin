@@ -15,6 +15,4 @@
 
 ### [🔗1.15 - 1.16.1](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.15%E2%80%931.16.1/Raijin_V11.8.n2-1.15-16.zip)   
 
-### [🔗1.14+](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.8.n3-1.14.zip) 
-
-### [🔗1.13+](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.8.n4-1.13.zip)  
+### [🔗1.13+](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.8.n4-1.13.zip) - [🔗1.14+](https://github.com/InfamousMusicify/Flying-Raijin/releases/download/1.13%E2%80%931.14/Raijin_V11.8.n3-1.14.zip)  
