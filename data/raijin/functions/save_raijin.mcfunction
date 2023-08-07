@@ -4,8 +4,10 @@
 
 # stop momentum   reset life    -if auto recall is on it basically makes tridents that are never picked up immortal in time, although the chances are pretty low unless someone is afk on a cliffs edge or flying around...
 data merge entity @s {Motion:[0d,0d,0d],life:1s}
+
 # summon trident to owner
 execute at @a if score @s raijin_id = @p[sort=nearest] raijin_id run tp @s ~ ~ ~
+
 # reset cooldown, bug fix/option to turn off constant resummoning
 #execute if score #instant_recall raijin.config matches 1.. unless score @s raijin_irecall matches 0 run scoreboard players operation @s raijin_lock = #raijin_lock raijin.config
 #idea# execute if score #instant_recall raijin.config matches 1.. unless score @s raijin_irecall matches 1.. run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
