@@ -1,7 +1,7 @@
 # raijin:tick
 # say tick
 #
-schedule function raijin:tick 1t
+#schedule function raijin:tick 1t
 execute as @a unless score @s raijin_id matches 1.. store result score @s raijin_id run scoreboard players add #last raijin_id 1
 # login/out redundancy
 execute as @a[scores={raijin_logout=1..}] run function raijin:logout
@@ -11,12 +11,10 @@ execute if score #save_raijin raijin.config matches 0 as @e[type=minecraft:tride
 # trident ID and lockon
 execute as @a[scores={raijin_throw=1..}] run function raijin:raijin_lock
 # Raijin
-execute as @a[scores={raijin=1..}] run function raijin:fr/lvl
-scoreboard players set @a raijin 0
+execute as @a[scores={raijin_use=1..}] run function raijin:fr/lvl
+scoreboard players set @a raijin_use 0
 scoreboard players set @a raijin_crouch 0
 # raijin cooldown
 execute as @a[scores={raijin.cooldown=1..}] run function raijin:cooldown
 
-# Craft trident from chakra
-execute as @a[scores={raijin_chakra=1..}] run function raijin:craft_start_old
-scoreboard players set @a raijin_chakra 0
+
