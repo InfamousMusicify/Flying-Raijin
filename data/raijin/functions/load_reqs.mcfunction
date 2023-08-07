@@ -2,7 +2,7 @@
 # crafting
 scoreboard objectives add raijin_chakra minecraft.used:minecraft.pig_spawn_egg
 # flying raijin level 2 (teleport to trident)
-scoreboard objectives add raijin minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add raijin_use minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add raijin_crouch minecraft.custom:minecraft.sneak_time
 # trident throw utility tracker (Raijin Lock timer trigger, when thrown)
 scoreboard objectives add raijin_throw minecraft.used:minecraft.trident
@@ -13,8 +13,13 @@ execute unless score #raijin_lock raijin.config matches 0.. run scoreboard playe
 scoreboard objectives add raijin_logout minecraft.custom:minecraft.leave_game
 
 ############################################################ utility
+scoreboard objectives add raijin trigger
 scoreboard objectives add raijin_id dummy
 scoreboard objectives add raijin.cooldown dummy
+scoreboard objectives add raijin_irecall dummy "edit instant recall"
+scoreboard objectives add raijin_arecall dummy "edit auto recall"
+scoreboard objectives add raijin_killfuse dummy "kill player editing"
+
 execute unless score #cooldown raijin.config matches 0.. run scoreboard players set #cooldown raijin.config 0
 execute unless score #cdtracker raijin.config matches 0.. run scoreboard players set #cdtracker raijin.config 0
 # msgs
