@@ -17,13 +17,13 @@ execute as @s[scores={raijin=2000000000..},tag=raij_tweak] run scoreboard player
 # toggle
 execute as @s[scores={raijin=-0..},tag=raij_irecall] run function raijin:trigger/i_recall_set
 # fuse
-execute as @s[scores={raijin=-0..},tag=raij_arecall] run function raijin:trigger/auto_recall_set
+execute as @s[scores={raijin=-0..},tag=raij_arecall] run function raijin:trigger/raijin_lock_set
 
 # pick
 # toggle
 execute as @s[scores={raijin=2000000001},tag=!raij_tweak] run function raijin:trigger/i_recall
 # fuse
-execute as @s[scores={raijin=2000000002},tag=!raij_tweak] run function raijin:trigger/auto_recall
+execute as @s[scores={raijin=2000000002},tag=!raij_tweak] run function raijin:trigger/raijin_lock
 
 
 scoreboard players enable @s raijin

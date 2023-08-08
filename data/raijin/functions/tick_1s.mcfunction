@@ -22,6 +22,7 @@ execute as @a[tag=raij_tweak] run function raijin:trigger/kill_timer
 # Crafting:
 # old crafting on ground
 execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:name_tag",Count:1b}}] at @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_eye",Count:1b}},distance=..1] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},distance=..1] at @s if block ~ ~-0.01 ~ minecraft:enchanting_table run function raijin:craft
+# old items craft
 #execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:name_tag",Count:1b}}] at @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_pearl",Count:1b}},distance=..1] run function raijin:crafted_items_old
 
 # Craft trident from chakra

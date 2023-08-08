@@ -11,9 +11,13 @@ execute at @a if score @s raijin_id = @p[sort=nearest] raijin_id run tp @s ~ ~ ~
 # reset cooldown, bug fix/option to turn off constant resummoning
 #execute if score #instant_recall raijin.config matches 1.. unless score @s raijin_irecall matches 0 run scoreboard players operation @s raijin_lock = #raijin_lock raijin.config
 #idea# execute if score #instant_recall raijin.config matches 1.. unless score @s raijin_irecall matches 1.. run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
-execute if score #instant_recall raijin.config matches 1.. unless score @s raijin_irecall matches 1.. at @a if score @s raijin_id = @p[sort=nearest] raijin_id run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
-
-
+# player choice version, trident stored score
+#execute unless score #instant_recall raijin.config matches 1.. unless score @s raijin_irecall matches 1.. at @a if score @s raijin_id = @p[sort=nearest] raijin_id run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
+# player stored score, doesnt work for god knows why
+#execute unless score #instant_recall raijin.config matches 1.. at @a unless score @p[sort=nearest] raijin_irecall matches 1.. if score @s raijin_id = @p[sort=nearest] raijin_id run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
+#execute unless score #instant_recall raijin.config matches 1.. at @a if score @s raijin_id = @p raijin_id unless score @p raijin_irecall matches 1.. run tp @s ~ ~ ~
+# working player stored
+execute unless score #instant_recall raijin.config matches 1.. at @a if score @s raijin_id = @p[scores={raijin_irecall=1..}] raijin_id run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
 ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### 
 
 # stop momentum

@@ -1,18 +1,24 @@
 # raijin:fr/lockon
 #say lockon
 # set player lockon score to server config
-scoreboard players operation @s raijin_lock = #raijin_lock raijin.config
-
+#scoreboard players operation @s raijin_lock = #raijin_lock raijin.config
+scoreboard players operation @s raijin_lock = @s raijin_arecall
 # tracker for non raijin tridents  -old bug fix to activate trident score
-scoreboard players add @e[type=trident,sort=nearest] raijin_id 0
+scoreboard players add @e[type=trident] raijin_id 0
 # Set thrown trident score to player ID.  # Called by tick (at player who throws trident)
 #og# execute store result score @e[sort=nearest,scores={raijin_id=0},type=trident,limit=1,nbt={Trident: {id: "minecraft:trident", Count: 1b, tag: {Tags: ["Raijin"]}}}] raijin_id run scoreboard players get @s raijin_id
-execute store result score @e[type=minecraft:trident,limit=1,scores={raijin_id=0},predicate=raijin:raijin] raijin_id run scoreboard players get @s raijin_id
+execute at @s store result score @e[limit=1,sort=nearest,type=minecraft:trident,predicate=raijin:raijin,scores={raijin_id=0}] raijin_id run scoreboard players get @s raijin_id
 
-# set cooldown on tridents 
-scoreboard players add @e[type=trident,predicate=raijin:raijin,sort=nearest] raijin_lock 0
+# set lockon on tridents 
+scoreboard players add @e[type=trident,predicate=raijin:raijin] raijin_lock 0
 #OG admin set# execute as @e[sort=nearest,type=trident,scores={raijin_id=1..,raijin_lock=0}] run scoreboard players operation @s raijin_lock = #raijin_lock raijin.config
-execute as @e[sort=nearest,type=trident,scores={raijin_id=1..,raijin_lock=0}] if score @s raijin_id = @p[sort=nearest] raijin_id run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
+#execute as @e[limit=1,sort=nearest,type=trident,scores={raijin_id=1..,raijin_lock=0}] if score @s raijin_id = @p[sort=nearest] raijin_id run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
+#execute as @e[limit=1,sort=nearest,type=trident,scores={raijin_id=1..,raijin_lock=0}] if score @s raijin_id = @p[sort=nearest] raijin_id run scoreboard players operation @s raijin_irecall = @p[sort=nearest] raijin_irecall
+
+execute at @s as @e[limit=1,sort=nearest,type=trident,scores={raijin_id=1..,raijin_lock=0}] run scoreboard players operation @s raijin_lock = @p[sort=nearest] raijin_arecall
+# instant recall setting stored on trident because minecraft is fucky and doesnt like to cooperate
+#execute at @s as @e[limit=1,sort=nearest,type=trident,scores={raijin_id=1..,raijin_lock=0}] run scoreboard players operation @s raijin_irecall = @p[sort=nearest] raijin_irecall
+
 
 # Reset RajinThrow Score
 scoreboard players set @s raijin_throw 0
