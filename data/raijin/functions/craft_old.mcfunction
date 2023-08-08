@@ -9,7 +9,8 @@ data merge entity @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:triden
 loot spawn ~ ~ ~ loot raijin:raijin_loot
 loot spawn ~ ~ ~ loot raijin:kuch_loot
 
-execute unless entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:trident",Count:1b,tag:{Tags: ["Raijin"]}}},sort=nearest,distance=..15] run loot give @s[gamemode=!creative] loot raijin:chakra_loot
+# old give chakra loot for failed attempt
+#execute unless entity @e[limit=1,type=item,nbt={Item:{id:"minecraft:trident",Count:1b,tag:{Tags: ["Raijin"]}}},sort=nearest,distance=..15] run loot give @s[gamemode=!creative] loot raijin:chakra_loot
 # Play Crafting Sounds and particles
 execute at @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:trident",Count:1b}},sort=nearest,distance=..3] run function raijin:craft_effects
 
