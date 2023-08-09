@@ -7,4 +7,4 @@ scoreboard players set @s raijin_chakra 0
 # # #
 
 # Redundancy for busy servers
-execute if score #last raijin_id matches 2147483646.. run function raijin:reinstall
+execute if score #last raijin_id matches 2147483646.. run function raijin:id_maxed

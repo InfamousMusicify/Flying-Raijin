@@ -1,3 +1,5 @@
 # raijin:reinstall
-function raijin:uninstall_m
+
+
+function raijin:uninstall
 function raijin:load

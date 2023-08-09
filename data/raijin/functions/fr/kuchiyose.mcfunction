@@ -7,7 +7,7 @@ playsound minecraft:ui.toast.in master @a[distance=..25] ~ ~ ~
 # at player tp sounds
 execute at @s run playsound minecraft:ui.toast.in master @a[distance=..25] ~ ~ ~
 # summon items for crouching player
-execute as @s[scores={raijin_crouch=1..}] run tp @e[type=item,sort=nearest,distance=..8] @s
+execute if entity @s[scores={raijin_crouch=1..}] run tp @e[type=item,sort=nearest,distance=..8] @s
 # summon trident
 tp @e[limit=1,distance=..0,type=trident,scores={raijin_id=1..}] @s
 

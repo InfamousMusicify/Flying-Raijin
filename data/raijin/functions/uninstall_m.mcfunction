@@ -9,12 +9,13 @@ scoreboard objectives remove raijin_throw
 scoreboard objectives remove raijin_lock
 scoreboard objectives remove raijin_logout
 scoreboard objectives remove raijin
-scoreboard objectives remove raijin_id
 scoreboard objectives remove raijin.cooldown
-scoreboard objectives remove raijin_irecall
-scoreboard objectives remove raijin_arecall
-scoreboard objectives remove raijin_editlock
-scoreboard objectives remove raijin_killfuse
+
+#scoreboard objectives remove raijin_id
+#scoreboard objectives remove raijin_irecall
+#scoreboard objectives remove raijin_arecall
+#scoreboard objectives remove raijin_editlock
+#scoreboard objectives remove raijin_killfuse
 
 execute as @a run function raijin:trigger/tag_remove
 
