@@ -1,0 +1,22 @@
+
+{
+    "display": {
+        "title": "Raijin Settings:                                       ",
+        "description": ["",
+        {"text":"/trigger raijin","color":"green"},
+        {"text":" - for raijin settings.","color":"gold"},{"text":"\n"},
+        {"text":"/function raijin:config","color":"dark_red"}
+        ],
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:raijin_0",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

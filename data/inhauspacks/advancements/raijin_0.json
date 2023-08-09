@@ -2,7 +2,6 @@
     "display": {
         "title": "Raijin Abilities                            ",
         "description": ["",
-            
             {"text":"Raijin to teleport to your trident.","color":"gold"},{"text":"\n"},
             {"text":"Kuchiyose to summon your trident.","color":"yellow"},{"text":"\n"},
             {"text":"Sneak and Kuchiyose to summon items.","color":"green"},{"text":"\n"},
@@ -14,7 +13,7 @@
         "announce_to_chat": false,
         "show_toast": false
     },
-    "parent": "inhauspacks:raijin/raijin",
+    "parent": "inhauspacks:raijin",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:tick"
