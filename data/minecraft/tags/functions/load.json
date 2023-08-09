@@ -1,6 +1,7 @@
 {
 	"values":[
 		"raijin:load",
+		"raijin:tick",
 		"raijin:tick_1s"
 	]
 }

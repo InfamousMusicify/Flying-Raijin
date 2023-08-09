@@ -11,7 +11,7 @@ execute if score #immortal_trident raijin.config matches 1.. as @e[type=minecraf
 # Immortal raijin
 execute if score #immortal_trident raijin.config matches 0 if score #immortal_raijin raijin.config matches 1.. as @e[type=minecraft:trident,predicate=raijin:raijin] run data merge entity @s {life:1s,Invulnerable:1b}
 # auto recall
-execute if score #auto_recall raijin.config matches 0 as @e[type=minecraft:trident,predicate=raijin:raijin,scores={raijin_lock=0}] run function raijin:save_raijin
+execute if score #auto_recall raijin.config matches 0 as @e[type=minecraft:trident,predicate=raijin:raijin,scores={raijin_lock=0}] run function raijin:recall_raijin
 
 scoreboard players enable @a raijin
 #execute as @a[scores={raijin=1..}] run function raijin:trigger

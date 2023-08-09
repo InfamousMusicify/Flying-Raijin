@@ -1,7 +1,7 @@
 # raijin:tick
 # say tick
 #
-#schedule function raijin:tick 1t
+schedule function raijin:tick 1t
 execute as @a unless score @s raijin_id matches 1.. store result score @s raijin_id run scoreboard players add #last raijin_id 1
 # login/out redundancy
 execute as @a[scores={raijin_logout=1..}] run function raijin:logout

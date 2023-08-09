@@ -18,6 +18,7 @@ scoreboard objectives add raijin_id dummy
 scoreboard objectives add raijin.cooldown dummy
 scoreboard objectives add raijin_irecall dummy "edit instant recall"
 scoreboard objectives add raijin_arecall dummy "edit auto recall"
+scoreboard objectives add raijin_editlock dummy "edit raijin_lock"
 scoreboard objectives add raijin_killfuse dummy "kill player editing"
 
 execute unless score #cooldown raijin.config matches 0.. run scoreboard players set #cooldown raijin.config 0
