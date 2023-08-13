@@ -1,0 +1,2 @@
+{id: "minecraft:trident", Count: 1b, tag: {Tags: ["Raijin"], display: {Lore: ['{"text":"Hiraishin No Jutsu","color":"gray","italic":false}']}}}
+{id: "minecraft:trident", Count: 1b, tag: {Tags: ["Raijin"]}}
