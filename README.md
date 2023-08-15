@@ -44,9 +44,7 @@ There is a command block version in the Legacy Branch for 1.9-1.13.
 
 [🔗 Datapack Inspiration](https://youtu.be/Fd_vSRkGlv8)  
 [🔗 How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)  
-**[🔗Up to Date- Pack in Action!](https://youtu.be/U7rVIvqq9fs)  
-[🔗Pack in Action!](https://youtu.be/sQXLHzxXQDE)  
-[🔗 Older Pack in action](https://youtu.be/dOuJNRJvqmY)**  
+**[🔗Old- Pack in Action!](https://youtu.be/U7rVIvqq9fs) - [🔗Older- Pack in Action!](https://youtu.be/sQXLHzxXQDE) - [🔗Olderer- Pack in action](https://youtu.be/dOuJNRJvqmY)**  
 
 ```
 AKA: Flying Raijin: Level 2 - Flying Trident: Level 2 - Flying Raijin Level 2 - Flying Raijin - Raijin - RTP - Flying Thunder God Technique - Hiraishin Ni No Dan - Hiraishin No Jutsu - Flying Raijin Jutsu - Poseidon's Wrath
