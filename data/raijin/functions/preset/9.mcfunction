@@ -17,8 +17,6 @@ scoreboard players set #immortal_raijin raijin.config 0
 scoreboard players set #save_trident raijin.config 0
 scoreboard players set #save_raijin raijin.config 0
 
-function raijin:preset/raijin_relock
-
-##### ##### ##### ##### ##### ##### ##### ##### ##### 
+#####################################
 execute store result score #sendCommandFeedback raijin.config run gamerule sendCommandFeedback
 execute if score #sendCommandFeedback raijin.config matches 1 run function raijin:hide_command_feedback
