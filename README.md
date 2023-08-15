@@ -6,7 +6,7 @@
 
 ### Check the advancements menu for crafting and usage in game.  
 
-## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md)      
+## [🔗Download🔗](https://github.com/InfamousMusicify/Flying-Raijin/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md) - [🔊Discord](https://discord.gg/T5XhN4tXgW)          
 
 **Crafting/Useage:**   
 _**1:** Throw an Ender Eye, NameTag and Trident on an enchanting table,_  
