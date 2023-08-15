@@ -1,6 +1,6 @@
 # raijin:patch
 # update patch to fix scoreboards after changes
-scoreboard players set #patch raijin.config 155
+scoreboard players set #patch raijin.config 165
 #  (Patch-# = ^)                             ^
 
 # uninstall uneeded boards.  keep config.
